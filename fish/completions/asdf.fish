@@ -1,0 +1,1 @@
+/home/talarys/.asdf/completions/asdf.fish
