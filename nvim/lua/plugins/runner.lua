@@ -13,6 +13,7 @@ return {
           gleam = "gleam run $end",
           rust = "cargo run -q $end ",
           haskell = "cabal run $dir/.. -v0 $end",
+          c = "make run $end",
         },
         vim.keymap.set("n", "<leader>r", ":RunCode<CR>", { noremap = true, silent = false }),
         vim.keymap.set("n", "<C-A-n>", ":RunCode<CR>", { noremap = true, silent = false }),
